@@ -1,0 +1,19 @@
+    <div class="tab">
+      <button class="tablinks" id="sign" onclick="openProduct(event, 'SignUp')">SignUp</button>
+      <button class="tablinks" onclick="openProduct(event, 'Login')">Login</button>
+      <button class="tablinks" onclick="openProduct(event, 'Dashboard')">Dashboard</button>
+
+    </div>
+     
+    <!-- Tab content -->
+     <div id="SignUp" class="tabcontent">
+      <app-sign-up></app-sign-up>
+    </div>
+    
+    <div id="Login" class="tabcontent">
+      <app-login></app-login>
+    </div>
+
+    <div id="Dashboard" class="tabcontent">
+        <app-dashboard></app-dashboard>
+      </div>
